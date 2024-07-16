@@ -1,31 +1,44 @@
 /* Основні стилі для контейнера форми */
 .feedback-form {
-    max-width: 408px;
-    margin: 20px auto;
-    padding: 24px 0px 0px 0px;
-    background-color: #ffffff;
-    border-radius: 8px 0px 0px 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
+        width: 408px;
+        height: 296 px;
+        margin: 20px auto;
+        padding: 24px 24px 24px 24px;
+        gap: 16px;
+        border-radius: 8px 0px 0px 0px;
+        background-color: #ffffff;
+        border-radius: 8px 0px 0px 0px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-family: 'Montserrat', sans-serif, Weight 400, Size 16px, Line height 24px,Letter 4%;
+            
 }
 
 /* Стилі для міток */
 .feedback-form label {
     display: block;
     margin-bottom: 8px;
-    font-weight: bold;
+    font-weight: 400;
     color: #333333;
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-align: left;
 }
 
 /* Стилі для полів введення email і message */
 .feedback-form input[type="email"],
 .feedback-form textarea[name="message"] {
-    width: 100%;
+    width: 360px;
+    height: 40px;
+    gap: 8px;
+    opacity: 0px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #dddddd;
     border-radius: 4px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     transition: border-color 0.3s ease;
 }
 
@@ -43,16 +56,19 @@
 /* Стилі для кнопки відправки */
 .feedback-form button[type="submit"] {
     display: block;
-    width: 100%;
-    padding: 12px;
+    width: 95px;
+    padding: 8px 16px 8px 16px;
     margin-top: 20px;
     background-color: rgba(78, 117, 255, 1);
     color: #ffffff;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px 8px 8px 8px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    height: Hug (40px)px;
+    gap: 10px;
+    opacity: 0px;
 }
 
 .feedback-form button[type="submit"]:hover {

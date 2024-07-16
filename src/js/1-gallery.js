@@ -81,8 +81,7 @@ const galleryMarkup = images
             </a>
         </li>
     `
-    )
-    .join('');
+    ).join('');
 
 galleryContainer.innerHTML = galleryMarkup;
 
